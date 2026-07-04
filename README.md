@@ -18,7 +18,11 @@
 ## 📸 Demo
 
 <div align="center">
-  <img src="screenshots/demo.svg" alt="hermes-devops-skills demo" width="100%">
+  <img src="screenshots/demo.svg" alt="hermes-devops-skills overview" width="100%">
+  <br><br>
+  <img src="screenshots/demo-real.png" alt="hermes-devops-skills live demo" width="90%" style="border-radius: 8px; border: 1px solid #30363d;">
+  <br>
+  <em>Terminal showing a DevOps skill in action — fix-brew-node-dylib-mismatch running on macOS</em>
 </div>
 
 <br>
