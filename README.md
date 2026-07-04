@@ -22,7 +22,7 @@
   <br><br>
   <img src="screenshots/demo-real.png" alt="hermes-devops-skills live demo" width="90%" style="border-radius: 8px; border: 1px solid #30363d;">
   <br>
-  <em>Terminal showing a DevOps skill in action — fix-brew-node-dylib-mismatch running on macOS</em>
+  <em>Live system diagnostics — macos-ram-swap-analysis probing total RAM, memory pages, and swap usage on macOS 26.5.1</em>
 </div>
 
 <br>
