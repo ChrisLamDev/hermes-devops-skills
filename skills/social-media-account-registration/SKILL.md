@@ -139,7 +139,7 @@ Agent prepares:                    User does:
 Just dropped Hermes Core Skills — 25 executable AI agent skills for debugging, planning, token efficiency & security.
 
 🚀 `cp -r skills/* ~/.claude/skills/`
-⭐ github.com/chrislamlayer1-gif/hermes-core-skills
+⭐ github.com/ChrisLamDev/hermes-core-skills
 
 Built for Claude Code, Codex, Cursor & Hermes. #AIAgents #OpenSource
 ```
@@ -166,7 +166,7 @@ skills/review/SKILL.md
 cp -r skills/* ~/.claude/skills/
 
 Open source, MIT licensed.
-github.com/chrislamlayer1-gif/hermes-core-skills
+github.com/ChrisLamDev/hermes-core-skills
 ```
 
 ## Avatar Generation (Geometric SVG)

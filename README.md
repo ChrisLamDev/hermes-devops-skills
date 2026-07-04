@@ -52,7 +52,7 @@ Your AI agent spends 30% of its time reinventing infrastructure. These skills en
 
 ```bash
 # Clone the repo
-git clone https://github.com/chrislamlayer1-gif/hermes-devops-skills.git
+git clone https://github.com/ChrisLamDev/hermes-devops-skills.git
 
 # Copy skills to your agent's skill directory
 # For Hermes Agent:
