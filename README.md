@@ -15,6 +15,16 @@
 
 **14 battle-tested macOS & GitHub DevOps skills for AI coding agents.**
 
+## 📸 Demo
+
+<div align="center">
+  <img src="screenshots/demo.svg" alt="hermes-devops-skills demo" width="100%">
+</div>
+
+<br>
+
+
+
 Your AI agent spends 30% of its time reinventing infrastructure. These skills encode hard-won DevOps patterns so your agent ships faster, debugs smarter, and stops making the same mistakes twice.
 
 ## You've been here before:
