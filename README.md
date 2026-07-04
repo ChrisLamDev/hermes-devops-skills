@@ -27,9 +27,11 @@
 
 <br>
 
+## 💡 Why These Skills?
 
+AI agents waste **30% of their time reinventing infrastructure**. A `brew upgrade` silently breaks Node tooling. Diagnosing RAM pressure requires six terminals and a prayer. That first Reddit post? Shadowbanned before anyone sees it. These aren't one-off annoyances — they're recurring tax on every session, draining tokens and patience alike.
 
-Your AI agent spends 30% of its time reinventing infrastructure. These skills encode hard-won DevOps patterns so your agent ships faster, debugs smarter, and stops making the same mistakes twice.
+These **14 skills** encode hard-won DevOps patterns so your agent ships faster, debugs smarter, and stops making the same mistakes. Each skill is a self-contained playbook: load it once, apply it forever. No more wondering why the same `brew` fix worked last month but broke today — the pattern is captured, tested, and reproducible.
 
 ## You've been here before:
 
@@ -112,6 +114,44 @@ These skills work with any AI agent that supports skill/memory injection:
 1. Fork the repo
 2. Add your skill as `skills/your-skill-name/SKILL.md`
 3. Open a PR with description of the DevOps pain point it solves
+
+## 🧬 Skill Anatomy
+
+Each skill lives in its own directory under `skills/` and follows a consistent structure:
+
+```
+skills/
+├── self-regulation-brake-system/
+│   └── SKILL.md
+├── macos-ram-swap-analysis/
+│   └── SKILL.md
+├── github-exposure-standard/
+│   └── SKILL.md
+└── ... (14 total)
+```
+
+Every `SKILL.md` is composed of two parts:
+
+**YAML Frontmatter** — machine-readable metadata that agents use for discovery and matching:
+
+```yaml
+---
+name: macos-ram-swap-analysis
+description: Diagnose memory pressure and swap congestion on macOS
+tags: [macos, memory, swap, diagnostics]
+triggers:
+  - memory full
+  - swap usage
+  - ram pressure
+---
+```
+
+**Markdown Body** — the human-readable playbook the agent follows, typically structured as:
+- `## Problem` — what pain point this skill solves
+- `## Solution` — the exact commands, scripts, or procedures to run
+- `## Integration Points` — how to wire it into the agent's workflow (config files, hooks, env vars)
+
+This dual format means agents can **auto-discover** skills via frontmatter tags/triggers while humans can **read and understand** the full procedure. No lock-in, no opaque configs.
 
 ## License
 
