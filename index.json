@@ -1,0 +1,107 @@
+{
+  "version": "1.0.0",
+  "generated_at": "2026-07-04",
+  "repository": "https://github.com/ChrisLamDev/hermes-devops-skills",
+  "domain": "devops",
+  "total_skills": 14,
+  "skills": [
+    {
+      "name": "github-demo-recording",
+      "description": "Auto-detect environment and record terminal/GUI demos for GitHub repos. Supports VHS, asciinema+agg, svg-term, and cua-driver modes.",
+      "domain": "devops",
+      "subdomain": "github-automation",
+      "path": "skills/github-demo-recording"
+    },
+    {
+      "name": "github-exposure-standard",
+      "description": "Release playbook for open-source projects covering README, community health, topics, social media, and verification to ensure discoverability.",
+      "domain": "devops",
+      "subdomain": "github-automation",
+      "path": "skills/github-exposure-standard"
+    },
+    {
+      "name": "github-project-discovery-hybrid",
+      "description": "Multi-angle GitHub project discovery using browser + GitHub API + trending, with practical clone/install/absorption workflow.",
+      "domain": "devops",
+      "subdomain": "github-automation",
+      "path": "skills/github-project-discovery-hybrid"
+    },
+    {
+      "name": "reddit-post-launch-workflow",
+      "description": "Complete Reddit posting workflow for new accounts — handles flair selection, AutoMod blocks, comment-karma farming, and cron monitoring.",
+      "domain": "devops",
+      "subdomain": "social",
+      "path": "skills/reddit-post-launch-workflow"
+    },
+    {
+      "name": "webhook-subscriptions",
+      "description": "Create webhook subscriptions for event-driven agent activation.",
+      "domain": "devops",
+      "subdomain": "github-automation",
+      "path": "skills/webhook-subscriptions"
+    },
+    {
+      "name": "macos-backup-overwrite-only",
+      "description": "Daily macOS backup that overwrites rather than accumulates, using launchd and shell scripts.",
+      "domain": "devops",
+      "subdomain": "macos",
+      "path": "skills/macos-backup-overwrite-only"
+    },
+    {
+      "name": "macos-deploy-python-tool-from-github",
+      "description": "Deploy Python tools from GitHub on macOS Apple Silicon.",
+      "domain": "devops",
+      "subdomain": "macos",
+      "path": "skills/macos-deploy-python-tool-from-github"
+    },
+    {
+      "name": "macos-ram-swap-analysis",
+      "description": "Diagnose memory pressure and swap congestion on macOS — check VM stats, top RAM consumers, and identify RAM vs swap issues.",
+      "domain": "devops",
+      "subdomain": "macos",
+      "path": "skills/macos-ram-swap-analysis"
+    },
+    {
+      "name": "install-tool-with-verification",
+      "description": "Install any tool/package from GitHub, Brew, or Cask with post-install verification, health check cron, and deliverable report.",
+      "domain": "devops",
+      "subdomain": "macos",
+      "path": "skills/install-tool-with-verification"
+    },
+    {
+      "name": "fix-brew-node-dylib-mismatch",
+      "description": "Fix missing .dylib libraries when brew upgrades break Node.js browser tooling by creating symlinks from old to new version numbers.",
+      "domain": "devops",
+      "subdomain": "macos",
+      "path": "skills/fix-brew-node-dylib-mismatch"
+    },
+    {
+      "name": "ios-app-build-automation",
+      "description": "Complete iOS app from source code to build — fully automated pipeline using XcodeGen + xcodebuild CLI, no Xcode GUI required.",
+      "domain": "devops",
+      "subdomain": "tooling",
+      "path": "skills/ios-app-build-automation"
+    },
+    {
+      "name": "open-notebook-docker-ollama-setup",
+      "description": "Deploy Open Notebook (open-source Notebook LM) with local Ollama models via Docker on macOS.",
+      "domain": "devops",
+      "subdomain": "tooling",
+      "path": "skills/open-notebook-docker-ollama-setup"
+    },
+    {
+      "name": "self-regulation-brake-system",
+      "description": "Brake system with pressure escalation — 1st-2nd failure triggers systematic debugging, 3rd+ auto-stops on loops to prevent token burning.",
+      "domain": "devops",
+      "subdomain": "agent",
+      "path": "skills/self-regulation-brake-system"
+    },
+    {
+      "name": "social-media-account-registration",
+      "description": "Social media account setup for AI/developer platforms — agent prepares bio, avatar, and posts for user copy-paste (supports X, Medium, Dev.to, Reddit, LinkedIn).",
+      "domain": "devops",
+      "subdomain": "social",
+      "path": "skills/social-media-account-registration"
+    }
+  ]
+}
